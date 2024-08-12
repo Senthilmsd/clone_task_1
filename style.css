@@ -1,1 +1,167 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    padding: 14px 0px 0px 8px;
+}
+.brand{
+    display: flex;
+}
+
+a .adobe-title{
+    color: rgb(236, 12, 12);
+    font-size: 1rem;
+    padding: 5px 0px 0px 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu-1, .menu-2, .menu-3, .menu-4{
+    padding-top: 8px;
+    font-size: 15px;
+    padding-left: 3px;
+}
+
+.hide-1, .hide-2, .hide-3, .hide-4{
+    display: none;
+}
+
+.nav{
+    width: 100%;
+    height: 10%;
+    display:flex;
+    /* position: relative; */
+}
+
+.left-menu{
+    display: flex;
+}
+
+.right-menu{
+    display: flex;
+    padding-left: 490px;
+    padding-top: 20px;  
+}
+.dotted{
+    margin-top: 5px;
+}
+.signin{ 
+    position: absolute;
+    padding: 5px 15px;
+    margin-left: 35px;
+    border-color:1rgb(192, 184, 184);
+    border-radius: 20px;
+    background-color: white;
+}
+.option-1, .option-2, .option-3, .option-4{
+        padding: 0px 20px;
+}
+
+.menu-1:hover .hide-1{
+    /* position: absolute; */
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.menu-1, .menu-2, .menu-3, .menu-4{
+    /* position: absolute; */
+    /* justify-content: space-between; */
+    /* padding-left: 200px; */
+}
+.display-1{  
+    display: inline-flex ;
+    /* margin-top: 50px; */
+    background-color: rgb(241, 235, 235);
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0%;
+}
+.block-1, .block-2, .block-3, .block-4{
+    padding-left: 20px;
+    width: 300px;
+}
+.display-1 li{
+    padding-top: 20px;
+    color: black;
+}
+.display-1 .block-4{
+    background-color: rgb(255, 255, 255);
+    margin: 10px 0px;
+    width: auto;
+}
+.menu-2:hover .hide-2{
+    /* position: absolute; */
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.display-2{  
+    display: inline-flex ;
+    /* margin-top: 50px; */
+    background-color: rgb(241, 235, 235);
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0%;
+}
+.display-2 li{
+    padding-top: 20px;
+    color: black;
+}
+.display-2 .block-4{
+    background-color: rgb(255, 255, 255);
+    margin: 10px 0px;
+    width: 300px;
+    height: 200px;
+}
+
+.menu-3:hover .hide-3{
+    /* position: absolute; */
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.display-3{  
+    display: inline-flex ;
+    /* margin-top: 50px; */
+    background-color: rgb(241, 235, 235);
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0%;
+}
+.display-3 li{
+    padding-top: 20px;
+    color: black;
+}
+.menu-4:hover .hide-4{
+    /* position: absolute; */
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.display-4{  
+    display: inline-flex ;
+    /* margin-top: 50px; */
+    background-color: rgb(241, 235, 235);
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0%;
+}
+.display-4 li{
+    padding-top: 20px;
+    color: black;
+}
+.option-4 .block-1 .download{
+    margin-top: 5px;
+    border: 2px;
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
+
 
