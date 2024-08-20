@@ -21,6 +21,7 @@ a .adobe-title{
     padding-top: 8px;
     font-size: 15px;
     padding-left: 3px;
+    z-index: 1;
 }
 
 .hide-1, .hide-2, .hide-3, .hide-4{
@@ -29,9 +30,8 @@ a .adobe-title{
 
 .nav{
     width: 100%;
-    height: 10%;
+    height: 65px;
     display:flex;
-    /* position: relative; */
 }
 
 .left-menu{
@@ -40,6 +40,7 @@ a .adobe-title{
 
 .right-menu{
     display: flex;
+    position: relative;
     padding-left: 490px;
     padding-top: 20px;  
 }
@@ -48,11 +49,18 @@ a .adobe-title{
 }
 .signin{ 
     position: absolute;
-    padding: 5px 15px;
-    margin-left: 35px;
-    border-color:1rgb(192, 184, 184);
+    width: 15%;
+    font-weight: bold;
+    color: rgb(86, 84, 84);
+    padding: 5px 0px;
+    margin-left: 40px;
+    border-color: rgb(86, 84, 84);
     border-radius: 20px;
     background-color: white;
+}
+.signin:hover{
+    background-color: rgb(222, 217, 217);
+    cursor: pointer;
 }
 .option-1, .option-2, .option-3, .option-4{
         padding: 0px 20px;
@@ -64,15 +72,10 @@ a .adobe-title{
     width: 100%;
     height: auto;
 }
-.menu-1, .menu-2, .menu-3, .menu-4{
-    /* position: absolute; */
-    /* justify-content: space-between; */
-    /* padding-left: 200px; */
-}
 .display-1{  
     display: inline-flex ;
     /* margin-top: 50px; */
-    background-color: rgb(241, 235, 235);
+    background-color: rgb(241, 241, 241);
     width: 100%;
     height: auto;
     position: fixed;
@@ -156,12 +159,269 @@ a .adobe-title{
     padding-top: 20px;
     color: black;
 }
-.option-4 .block-1 .download{
+.display-4 .block-1 button{
     margin-top: 5px;
-    border: 2px;
+    border-style: dashed;
+    border: 3px;
     border-radius: 10px;
     padding: 5px 10px;
 
 }
+.dotted-menu-hide{
+    display: none;
+}
+.right-menu:hover .dotted-menu-hide{
+    cursor: pointer;
+    background-color: aqua;;
+    height: 450px;
+    width: 330px;
+    margin-top: 40px;
+    position: absolute;
+    margin-left: -310px;
+    overflow-x: scroll;
+}
+a{
+    text-decoration: none;
+}
+.row-1, .row-2, .row-3{
+    display: flex;
+    width: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.dotted-menu-hide img{
+    padding-top: 10px;
+    padding-left: 40px
+}
+.dotted-menu-hide span{
+    margin-top: 50px;
+    margin-left: -40px;
+    color: black;
+}
+.dotted-menu-hide h3{
+    padding-left: 20px;
+}
+.img-1 span{
+    padding-left: 40px;
+}
+.img-2 span{
+    padding-left: 70px;
+}
 
+.img-3 span{
+    padding-left: 70px;
+}
+.img-4 span{
+    padding-left: 60px;
+}
+.img-5 span{
+    padding-left: 60px;
+}
 
+.img-6 span{
+    padding-left: 80px;
+}
+.img-7 span{
+    padding-left: 80px;
+}
+.img-8 span{
+    margin-left: -50px;
+    position: absolute;
+}
+.img-8{
+    position: relative;
+}
+.img-8 img{
+    padding-left: 60px;
+}
+.row-4{
+    background-color: rgb(215, 209, 209);
+    position: relative;
+    height: 80px;
+    width: 90%;
+    margin-left: 18px;
+    margin-top: 20px;
+    border-radius: 10px;
+    /* margin-left: 10px; */
+}
+.bottom-img-1{
+    padding-left: 30px;
+    color: black;
+    padding-top: 100px;
+    text-decoration: none;
+}
+.bottom-img-2{
+    padding-left: 30px;
+    position: relative;
+    color: black;
+}
+.bottom-img-1 .span-1{
+    margin-top: 50px;
+    position: absolute;
+    margin-left: -50px;
+}
+.bottom-img-2 .span-2{
+    /* padding-top: -10px; */
+    position: absolute;
+    margin-left: -40px;
+    width: 200px;
+}
+.dotted-menu-hide{
+    border-radius: 20px 20px 20px 20px;
+}
+
+.bg-img{
+    position: relative;
+    height: 800px;
+}
+.image-content{
+    width: 100% ;
+    position: absolute;
+    top: 100px;
+    text-align: center;
+}
+.image-content-2{
+    position: absolute;
+    top: 280px;
+    left: 60px;
+    height: 500px;
+    width: 800px;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(205, 188, 188);
+}
+.image-content-3{
+    position: absolute;
+    top: 280px;
+    left: 900px;
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(205, 188, 188);
+}
+.box-1-content{
+    position: absolute;
+    top: 290px;
+    left: 80px;
+    font-size: larger;
+    width: 700px;
+    cursor: pointer;
+}
+.box-1-content button{
+    padding: 12px;
+    background-color: transparent;
+    border-radius: 30px;
+}
+.image-content-2:hover{
+    cursor: pointer;
+}
+.box-1-content:hover button{
+    background-color: black;
+    color: white;
+}
+.box-1-content img{
+    margin-left: 400px;
+    width: 300px;
+}
+.box-2-content{
+    position: absolute;
+    top: 290px;
+    left: 920px;
+    font-size: larger;
+    width: 350px;
+    cursor: pointer;
+}
+.box-2-content button{
+    padding: 12px;
+    background-color: transparent;
+    border-radius: 30px;
+}
+.image-content-3:hover{
+    cursor: pointer;
+}
+.box-2-content:hover button{
+    background-color: black;
+    color: white;
+}
+.box-2-content img{
+    position: absolute;
+    top: -25px;
+    left: -18px;
+    width: 400px;
+    margin-top: -60px;
+
+}
+.list{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+}
+.list p{
+    justify-content: center;
+    margin-left: 10px;
+    padding: 5px 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;    
+}
+.containers3{
+    display: flex;
+}
+.container-1{
+    margin-left: 50px;
+    background-color: rgb(125, 251, 251);
+    color: black;
+    width: 380px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.container-1 img{
+    padding-top: 60px;
+}
+.container-2{
+    margin-left: 30px;
+    color: black;
+    background-color: rgb(115, 83, 244);
+    width: 380px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.container-2 img{
+    width: 350px;
+}
+.container-3{
+    margin-left: 30px;
+    margin-right: 50px;
+    color: black;
+    background-color: rgb(211, 211, 211);
+    width: 380px;
+    height: 490px;
+    border-radius: 20px;
+    /* padding: 20px; */
+}
+.container-3 img{
+    width: 350px;
+}
+.container-3 .color{
+    padding: 20px;
+    margin-top: 0px;
+    margin: 0;
+    background: linear-gradient(to right,rgb(247, 128, 146),purple);
+    height: 80px;
+    width: 330px;
+    border-radius: 20px 20px 0px 0px;
+}
+.container-3 .con-3-points{
+    margin-top: 50px;
+    padding-left: 20px;
+    line-height: 10px;
+}
