@@ -371,6 +371,11 @@ a{
     border-color: black;
     border-radius: 20px;    
 }
+.list p:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
 .containers3{
     display: flex;
 }
@@ -424,4 +429,117 @@ a{
     margin-top: 50px;
     padding-left: 20px;
     line-height: 10px;
+}
+.containers2{
+    margin-top: 30px;
+    margin-left: 50px;
+    justify-content: space-between;
+    /* height: 80%;
+    width: 80%; */
+}
+.butterfly{
+    padding-left: 50px;
+}
+.four-line-containers{
+    display: flex;
+
+}
+.container-1st{
+    background-color: rgb(249, 221, 251);
+    margin-left: 50px;
+    margin-top: 30px;
+    color: black;;
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.sweat-dog{
+    top: 500px;
+    margin-left: -20px;
+    height: 260px;  
+    width: 390px;
+
+}
+.container-2nd{
+    background-color: rgb(83, 86, 228);
+    margin-left: 40px;
+    margin-top: 30px;
+    color: black;;
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.techy{
+    padding-top: 10px;
+    margin-left: -10px;
+}
+.container-3nd{
+    background:linear-gradient(to bottom, orange,rgb(251, 205, 141), rgb(186, 35, 95));
+    margin-left: 40px;
+    margin-top: 30px;
+    color: black;;
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.people{
+    padding-top: 10px;
+    margin-left: 0px;
+}
+.container-1st:hover h5{
+    text-decoration: underline;
+}
+.container-2nd:hover h5{
+    text-decoration: underline;
+}
+.container-3nd:hover h5{
+    text-decoration: underline;
+}
+.fifth-line{
+    text-align: center;
+    padding-top: 20px;
+}
+footer{
+    background-color: rgb(236, 236, 236); 
+}
+.block-lines{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    font-size: small;
+    padding: 0px 40px;
+}
+.block-lines a{
+    color: black;
+}
+.block-lines a:hover{
+    color: blue;
+    cursor: pointer;
+}
+.block-lines h4{
+    line-height: 40px;
+    font-weight: 600;
+    color: grey;
+}
+.hr-content img{
+    border-radius: 5px;
+    padding-left: 50px;
+}
+.hr-content{
+    display: flex;
+    padding-left: 200px;
+}
+.hr-img{
+    padding-top: 10px;
+}
+.hr-img span{
+    padding-left: 20px;
+    top: 100px;
+    color: black;
+}
+hr{
+    padding-top: -100px;
 }
