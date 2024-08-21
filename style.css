@@ -26,12 +26,14 @@ a .adobe-title{
 
 .hide-1, .hide-2, .hide-3, .hide-4{
     display: none;
+    
 }
 
 .nav{
     width: 100%;
-    height: 65px;
+    height: 70px;
     display:flex;
+    /* position: sticky; */
 }
 
 .left-menu{
@@ -71,6 +73,7 @@ a .adobe-title{
     display: inline-block;
     width: 100%;
     height: auto;
+    padding-top: -30px;
 }
 .display-1{  
     display: inline-flex ;
@@ -170,7 +173,7 @@ a .adobe-title{
 .dotted-menu-hide{
     display: none;
 }
-.right-menu:hover .dotted-menu-hide{
+.dotted:hover .dotted-menu-hide{
     cursor: pointer;
     background-color: aqua;;
     height: 450px;
@@ -367,6 +370,7 @@ a{
     margin-left: 10px;
     padding: 5px 20px;
     border: 2px;
+    color: black;
     border-style: solid;
     border-color: black;
     border-radius: 20px;    
@@ -542,4 +546,29 @@ footer{
 }
 hr{
     padding-top: -100px;
+}
+.last-line{
+    display: flex;
+}
+.last-left{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.last-left img{
+    padding-left: 30px;
+}
+.location p{
+    padding-left: 60px;
+    margin-top: -27px;
+    color: black;
+}
+.last-right{
+    margin-left: 200px;
+    display: flex;
+    font-size: small;
+}
+.last-right a{
+    padding: 13px 0px 0px 10px;
+    color: black;
 }
